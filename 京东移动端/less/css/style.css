@@ -1,0 +1,268 @@
+body {
+  background: #f5f5f5;
+}
+body .wrap {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+body .wrap .head {
+  width: 100%;
+  position: relative;
+  margin: 7px 0 9px;
+}
+body .wrap .head .logo1 {
+  position: absolute;
+  left: 4px;
+  top: 6px;
+}
+body .wrap .head .logo1 img {
+  width: 100%;
+}
+body .wrap .head .logo2 {
+  padding: 2px 4px 0 12px;
+  position: absolute;
+  right: 4px;
+  bottom: 0;
+}
+body .wrap .head .logo2 img {
+  width: 100%;
+}
+body .wrap .head .ipt {
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+  position: relative;
+}
+body .wrap .head .ipt input {
+  border-radius: 3px;
+  width: 100%;
+  height: 30px;
+  background: #ebebeb;
+}
+body .wrap .head .ipt i {
+  width: 17px;
+  height: 17px;
+  background: url(../images/big.png) no-repeat;
+  position: absolute;
+  right: 45px;
+  top: 7px;
+}
+body .wrap .banner {
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 10px;
+}
+body .wrap .banner .ban-pic {
+  display: block;
+  width: 100%;
+  border: 4px solid #fff;
+  box-sizing: border-box;
+}
+body .wrap .banner .ban-pic img {
+  width: 100%;
+}
+body .wrap .banner ul {
+  width: 100%;
+  background: #fff;
+}
+body .wrap .banner ul li {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background: url(../images/ban-bc.png) no-repeat 100% 50%;
+}
+body .wrap .banner ul li.ban-bc0 {
+  background: none;
+}
+body .wrap .banner ul li a {
+  width: 100%;
+  display: block;
+  padding-bottom: 11px;
+  font: 11px/1 "微软雅黑";
+  color: #7f7f7f;
+}
+body .wrap .banner ul li a img {
+  display: block;
+  width: 25px;
+  margin: 8px auto 4px;
+}
+body .wrap .hand {
+  background: #fff;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e1e1e1;
+}
+body .wrap .hand .hand-t {
+  border-bottom: 1px solid #dadada;
+  padding: 8px 0 9px 7px;
+  font: 13px/1 "微软雅黑";
+}
+body .wrap .hand .hand-t h3 {
+  background: url(../images/hand-h.png) no-repeat 0 50%;
+  padding: 0 8px 0 10px;
+  color: #7f7f7f;
+}
+body .wrap .hand .hand-t span {
+  float: left;
+  color: #000;
+  margin-right: 2px;
+}
+body .wrap .hand .hand-t span.num {
+  background: #5d5d5d;
+  color: #fff;
+  padding: 2px 3px 1px;
+}
+body .wrap .hand ul li {
+  width: 33.3%;
+  float: left;
+  box-sizing: border-box;
+}
+body .wrap .hand ul li.hand-mid {
+  border-right: 1px solid #dadada;
+  border-left: 1px solid #dadada;
+}
+body .wrap .hand ul li a {
+  width: 100%;
+  text-align: center;
+}
+body .wrap .hand ul li a img {
+  margin: 26px auto 3px;
+  width: 60%;
+  display: block;
+}
+body .wrap .hand ul li a span {
+  display: block;
+  font: 11px/1 "微软雅黑";
+}
+body .wrap .hand ul li a span.sale {
+  background: #d8505c;
+  width: 60%;
+  padding: 2px 0;
+  color: #fff;
+  margin: 10px auto;
+}
+body .wrap .hand ul li a span.price {
+  color: #d8505c;
+}
+body .wrap .M {
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 10px;
+}
+body .wrap .M .M-t {
+  padding: 9px 0 11px 7px;
+  font: 13px/1 "微软雅黑";
+}
+body .wrap .M .M-t h3 {
+  background: url(../images/hand-h.png) no-repeat 0 50%;
+  padding-left: 10px;
+  color: #7f7f7f;
+}
+body .wrap .M a {
+  display: block;
+  width: 100%;
+  border: 5px solid #fff;
+  box-sizing: border-box;
+}
+body .wrap .M a img {
+  width: 100%;
+}
+body .wrap .chaozhigou {
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 10px;
+}
+body .wrap .chaozhigou .g-t {
+  padding: 9px 0 11px 7px;
+  font: 13px/1 "微软雅黑";
+}
+body .wrap .chaozhigou .g-t h3 {
+  background: url(../images/hand-h.png) no-repeat 0 50%;
+  padding-left: 10px;
+  color: #7f7f7f;
+}
+body .wrap .chaozhigou ul {
+  width: 100%;
+}
+body .wrap .chaozhigou ul li {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+body .wrap .chaozhigou ul li.g-li {
+  border-right: 1px solid #dadada;
+}
+body .wrap .chaozhigou ul li a {
+  width: 100%;
+  display: block;
+}
+body .wrap .chaozhigou ul li a.g2 {
+  border-bottom: 1px solid #dadada;
+}
+body .wrap .chaozhigou ul li a img {
+  width: 100%;
+}
+body .wrap .zhutiguan {
+  background: #fff;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 10px;
+}
+body .wrap .zhutiguan .g-t {
+  padding: 9px 0 11px 7px;
+  font: 13px/1 "微软雅黑";
+}
+body .wrap .zhutiguan .g-t h3 {
+  background: url(../images/hand-h.png) no-repeat 0 50%;
+  padding-left: 10px;
+  color: #7f7f7f;
+}
+body .wrap .zhutiguan .ztg-l {
+  padding: 0 0 6px 9px;
+}
+body .wrap .zhutiguan .ztg-l div {
+  float: left;
+  width: 50%;
+  border-right: 9px solid #fff;
+  box-sizing: border-box;
+}
+body .wrap .zhutiguan .ztg-l div a {
+  display: block;
+  width: 100%;
+  border-bottom: 9px solid #fff;
+  box-sizing: border-box;
+}
+body .wrap .zhutiguan .ztg-l div a img {
+  width: 100%;
+}
+body .wrap .footer {
+  font: 12px/1 "微软雅黑";
+  background: #fff;
+  padding-bottom: 27px;
+}
+body .wrap .footer .login {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 10px;
+  color: #666;
+}
+body .wrap .footer .login a {
+  color: #666;
+}
+body .wrap .footer .login i {
+  padding: 0 3px;
+}
+body .wrap .footer .login-b {
+  text-align: center;
+}
+body .wrap .footer .login-b .change {
+  margin: 14px auto 9px;
+}
+body .wrap .footer .login-b .change a {
+  color: #666;
+}
+body .wrap .footer .login-b .change a.chuping {
+  padding: 0 30px;
+  color: #e6242b;
+}
+body .wrap .footer .login-b p {
+  margin-bottom: 9px;
+  color: #666;
+}
